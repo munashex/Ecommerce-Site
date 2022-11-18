@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  background: hotpink;   
+  height: 60px;  
+  border: 1px solid black;
+}
+
+.nav_items {
+  display: flex; 
+  align-items: center; 
+  margin: 10px;
+}
+
+.nav_items > span {
+  position: absolute; 
+  right: 40px 
+}
+.empty_cart {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.total {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.btn_container{
+  display: flex; 
+  justify-content: center; 
+} 
+.btn_container > button {
+ height: 30px;
+ width: 100px;
+ background-color: hotpink; 
+ border: none; 
+ border-radius: 3px;
+}
+
+.item_data {
+display: flex;  
+justify-content: center;
+flex-wrap: wrap; 
+margin-top: 50px; 
+} 
+
+.img {
+  height: 130px
+} 
+
+
+.inner_items {
+  display: flex; 
+  flex-direction: column; 
+  margin-left: 40px;
+}
+
+
